@@ -21,20 +21,20 @@ authenticate {
 eap module is important. It has both TLS and TTLS submodules.
     
 
-For EAP-TLS the handler logic is straight-forward. Unless the authentication is successful, the handler keeps on sending challenge response to the NAS. The client side connection is managed by an application which automates everything.
+        For EAP-TLS the handler logic is straight-forward. Unless the authentication is successful, the handler keeps on sending challenge response to the NAS. The client side connection is managed by an application which automates everything.
 
 
 FOR EAP-TTLS AUTHENTICATION :
 
-1) Update users file
-bob     Cleartext-Password := "hello"
-        Reply-Message := "Hello, %{User-Name}"
-        
+        1) Update users file
+        bob     Cleartext-Password := "hello"
+                Reply-Message := "Hello, %{User-Name}"
+                
         This will ensure that PAP module will be set in inner tunnel
 
-2) Create a shortcut for inner-tunnel module
-cd /etc/freeradius/sites-enabled/
-ln -s ../sites-available/inner-tunnel ./inner-tunnel
+        2) Create a shortcut for inner-tunnel module
+        cd /etc/freeradius/sites-enabled/
+        ln -s ../sites-available/inner-tunnel ./inner-tunnel
 
 Thats it. Connection to the server is streamlined by now.
 
