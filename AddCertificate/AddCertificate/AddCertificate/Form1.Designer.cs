@@ -57,7 +57,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.LimeGreen;
+            this.button3.BackColor = System.Drawing.Color.Orange;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(153, 196);
             this.button3.Name = "button3";
