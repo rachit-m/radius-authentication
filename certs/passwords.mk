@@ -1,0 +1,5 @@
+PASSWORD_SERVER	= '<strong>serverprivate</strong>'
+PASSWORD_CA	= '<strong>caprivate</strong>'
+PASSWORD_CLIENT	= 'clientprivate'
+USER_NAME	= 'contact@poziomlabs.com'
+CA_DEFAULT_DAYS  = '1825'
