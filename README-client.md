@@ -1,7 +1,7 @@
 # radius-authentication (client side)
 
 There are mainly two things that need to be set up on the client side
-to connect using Radius Authentication
+to connect using Radius Authentication:
 
          1> Installation of certificates.
          
@@ -27,3 +27,6 @@ INSTALLATION OF CERTIFICATES:
         Repeat process but select Trusted Root Certification Authorities in Step 3, Specify “ca.der” in Step 5 and skip Step 7.
         
 
+-> certificate installation is complete.
+
+-> The process of certificate installation can be automated using our “AddCertificate” application.
