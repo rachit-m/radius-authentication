@@ -36,18 +36,18 @@ INSTALLATION OF CERTIFICATES:
 CREATION OF CONNECTION PROFILE:
 -------------------------------
 
-1. Create a new wireless network on the client via Network and Sharing Center -> Manually create a network profile.
-2. Network name: <SSID configured in Dashboard>
-3. Security type: WPA2-Enterprise
-4. Encryption type: AES
-5. Change connection settings
-6. Select the Security tab
-7. Change the authentication method to Microsoft: Smart Card or other certificate
-8. Select Advanced settings
-9. Specify authentication method user authentication
-10. Click OK to save the Advanced settings
-11. Select Settings. In the Trusted Root Certification Authorities find and check the certificate “contact@poziomlabs.com”
-12. Click OK to save changes to Settings and again to save the changes to the wireless profile
+         1. Create a new wireless network on the client via Network and Sharing Center -> Manually create a network profile.
+         2. Network name: <SSID configured in Dashboard>
+         3. Security type: WPA2-Enterprise
+         4. Encryption type: AES
+         5. Change connection settings
+         6. Select the Security tab
+         7. Change the authentication method to Microsoft: Smart Card or other certificate
+         8. Select Advanced settings
+         9. Specify authentication method user authentication
+         10. Click OK to save the Advanced settings
+         11. Select Settings. In the Trusted Root Certification Authorities find and check the certificate “contact@poziomlabs.com”
+         12. Click OK to save changes to Settings and again to save the changes to the wireless profile
 
 -> creation of connection profile is complete
 
