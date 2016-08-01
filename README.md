@@ -38,17 +38,17 @@ FOR EAP-TTLS AUTHENTICATION :
 
 Thats it. Connection to the server is streamlined by now.
 
-MYSQL AS A DATA STORE
+#MYSQL AS A DATA STORE
 
 FreeRADIUS can connect to an SQL database to retrieve a user's details. The FreeRADIUS SQL modules work in pairs. A generic SQL module makes use of a specific database module to interact with the database. This allows easy support for different databases. Just as the files module uses the users file to retrieve information for authorization and authentication, so does the generic SQL module use the specific database module to retrieve the same type of information from a database.
 
-Connection information
+##Connection information
 
 The sql.conf file located in the FreeRADIUS configuration directory contains all the configuration options to connect to a database. If you have used the default values, you do not have to change anything in this file. You are, however, encouraged to go through the contents of this file in order to better understand the various directives that can be specified.This will also help to double-check and confirm the values used in the previous steps.
 
 We assume that a database named radius has already been created . Now ,we need to create a replica of the users file in MySql server which is to be used by sql module. Freeradius provides a schema for that and we just need to copy the schema in the MySql server.
 
-mysql -u root -p radius < /etc/freeradius/sql/mysql/schema.sql
+        mysql -u root -p radius < /etc/freeradius/sql/mysql/schema.sql
 
 Just add 1 or more user entries in the respective tables and then change the following sql module in sql.conf file:
 
@@ -63,9 +63,9 @@ Just add 1 or more user entries in the respective tables and then change the fol
     radius_db = "radius"//The database which we are going to use
     ………}
 
-To let FreeRADIUS include the SQL module upon startup, uncomment the following line in radiusd.conf (/usr/local/etc/ra> ddb/radiusd.conf):
+To let FreeRADIUS include the SQL module upon startup, uncomment the following line in radiusd.conf   (/usr/local/etc/raddb/radiusd.conf):
 
-INCLUDE sql.conf
+        INCLUDE sql.conf
 
 To use the SQL module as a user store, uncomment the sql line in the authorize, accounting and session sections in “/usr/freeradius/sites-enabled/default” file.
 
