@@ -1,0 +1,14 @@
+D:\Projects\netconnect\netconnect\bin\Debug\netconnect.exe
+D:\Projects\netconnect\netconnect\bin\Debug\netconnect.pdb
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.csprojResolveAssemblyReference.cache
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.Form1.resources
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.Properties.Resources.resources
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.csproj.GenerateResource.Cache
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.exe
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.pdb
+D:\Projects\netconnect\netconnect\bin\Debug\netconnect.exe.config
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.TrustInfo.xml
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.exe.manifest
+D:\Projects\netconnect\netconnect\bin\Debug\netconnect.exe.manifest
+D:\Projects\netconnect\netconnect\bin\Debug\netconnect.application
+D:\Projects\netconnect\netconnect\obj\Debug\netconnect.application
