@@ -1,0 +1,8 @@
+D:\Projects\XML_generator\XML_generator\bin\Debug\XML_generator.exe
+D:\Projects\XML_generator\XML_generator\bin\Debug\XML_generator.pdb
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.csprojResolveAssemblyReference.cache
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.Form1.resources
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.Properties.Resources.resources
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.csproj.GenerateResource.Cache
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.exe
+D:\Projects\XML_generator\XML_generator\obj\Debug\XML_generator.pdb

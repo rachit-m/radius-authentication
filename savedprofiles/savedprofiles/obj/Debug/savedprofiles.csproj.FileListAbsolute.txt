@@ -1,0 +1,8 @@
+D:\Projects\savedprofiles\savedprofiles\bin\Debug\savedprofiles.exe
+D:\Projects\savedprofiles\savedprofiles\bin\Debug\savedprofiles.pdb
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.csprojResolveAssemblyReference.cache
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.Form1.resources
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.Properties.Resources.resources
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.csproj.GenerateResource.Cache
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.exe
+D:\Projects\savedprofiles\savedprofiles\obj\Debug\savedprofiles.pdb
