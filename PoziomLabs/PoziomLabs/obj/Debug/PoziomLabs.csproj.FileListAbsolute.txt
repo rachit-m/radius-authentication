@@ -1,0 +1,5 @@
+D:\Projects\PoziomLabs\PoziomLabs\bin\Debug\PoziomLabs.dll
+D:\Projects\PoziomLabs\PoziomLabs\bin\Debug\PoziomLabs.pdb
+D:\Projects\PoziomLabs\PoziomLabs\obj\Debug\PoziomLabs.csprojResolveAssemblyReference.cache
+D:\Projects\PoziomLabs\PoziomLabs\obj\Debug\PoziomLabs.dll
+D:\Projects\PoziomLabs\PoziomLabs\obj\Debug\PoziomLabs.pdb
