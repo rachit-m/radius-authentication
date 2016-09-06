@@ -197,16 +197,15 @@ namespace PoziomLabs
             if (NetworkInterface.GetIsNetworkAvailable())
             {
                 NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
-                //NetworkInterface nic = interfaces[0];
                 int a = interfaces.Length, i;
-                //MessageBox.Show(a.ToString());
                 for (i = 0; i < interfaces.Length; i++)
                 {
                     NetworkInterface nic = interfaces[i];
-                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 200)
+                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 20)
                     {
                         IPv4InterfaceStatistics netstats = nic.GetIPv4Statistics();
-                        down = Convert.ToInt32(netstats.BytesReceived / 1024);    
+                        down = Convert.ToInt32(netstats.BytesReceived / 1024);
+                        break;    
                     }
                 }
             }
@@ -219,16 +218,57 @@ namespace PoziomLabs
             if (NetworkInterface.GetIsNetworkAvailable())
             {
                 NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
-                //NetworkInterface nic = interfaces[0];
                 int a = interfaces.Length, i;
-                //MessageBox.Show(a.ToString());
                 for (i = 0; i < interfaces.Length; i++)
                 {
                     NetworkInterface nic = interfaces[i];
-                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 200)
+                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 20)
                     {
                         IPv4InterfaceStatistics netstats = nic.GetIPv4Statistics();
                         up = Convert.ToInt32(netstats.BytesSent / 1024);
+                        break;
+                    }
+                }
+            }
+            return up;
+        }
+
+        public int DownloadedMB()
+        {
+            int down = 0;
+            if (NetworkInterface.GetIsNetworkAvailable())
+            {
+                NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
+                int a = interfaces.Length, i;
+                for (i = 0; i < interfaces.Length; i++)
+                {
+                    NetworkInterface nic = interfaces[i];
+                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 20)
+                    {
+                        IPv4InterfaceStatistics netstats = nic.GetIPv4Statistics();
+                        down = Convert.ToInt32((netstats.BytesReceived / 1024) / 1024);
+                        break;
+                    }
+                }
+            }
+            return down;
+        }
+
+        public int UploadedMB()
+        {
+            int up = 0;
+            if (NetworkInterface.GetIsNetworkAvailable())
+            {
+                NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
+                int a = interfaces.Length, i;
+                for (i = 0; i < interfaces.Length; i++)
+                {
+                    NetworkInterface nic = interfaces[i];
+                    if (interfaces[i].OperationalStatus == OperationalStatus.Up && nic.GetIPv4Statistics().BytesReceived / 1024 > 20)
+                    {
+                        IPv4InterfaceStatistics netstats = nic.GetIPv4Statistics();
+                        up = Convert.ToInt32((netstats.BytesSent / 1024) / 1024);
+                        break;
                     }
                 }
             }
