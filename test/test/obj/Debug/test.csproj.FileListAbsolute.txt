@@ -1,0 +1,9 @@
+D:\Projects\test\test\bin\Debug\test.exe
+D:\Projects\test\test\bin\Debug\test.pdb
+D:\Projects\test\test\bin\Debug\PoziomLabs.dll
+D:\Projects\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\Projects\test\test\obj\Debug\test.Form1.resources
+D:\Projects\test\test\obj\Debug\test.Properties.Resources.resources
+D:\Projects\test\test\obj\Debug\test.csproj.GenerateResource.Cache
+D:\Projects\test\test\obj\Debug\test.exe
+D:\Projects\test\test\obj\Debug\test.pdb
