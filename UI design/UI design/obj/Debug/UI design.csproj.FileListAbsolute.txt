@@ -1,0 +1,8 @@
+D:\Projects\UI design\UI design\bin\Debug\UI design.exe
+D:\Projects\UI design\UI design\bin\Debug\UI design.pdb
+D:\Projects\UI design\UI design\obj\Debug\UI design.csprojResolveAssemblyReference.cache
+D:\Projects\UI design\UI design\obj\Debug\UI_design.Form1.resources
+D:\Projects\UI design\UI design\obj\Debug\UI_design.Properties.Resources.resources
+D:\Projects\UI design\UI design\obj\Debug\UI design.csproj.GenerateResource.Cache
+D:\Projects\UI design\UI design\obj\Debug\UI design.exe
+D:\Projects\UI design\UI design\obj\Debug\UI design.pdb
